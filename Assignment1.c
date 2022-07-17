@@ -24,7 +24,7 @@ int main()
 }
 
 
-//3. Write a program to print “MySirG” on the screen. (Remember to print in double quotes)
+//3. Write a program to print â€œMySirGâ€ on the screen. (Remember to print in double quotes)
 
 #include<stdio.h>
 #include<conio.h>
@@ -38,7 +38,7 @@ int main()
 
 
 // 4. WAP to find the area of the circle. Take radius of circle from user as input and print the result in below given format.
-//Expected output format – “Area of circle is A having the radius R”. Replace A with area & R with radius.
+//Expected output format â€“ â€œArea of circle is A having the radius Râ€. Replace A with area & R with radius.
 
 #include<stdio.h>
 #include<conio.h>
@@ -62,14 +62,14 @@ int main()
 int main()
 {
    int x=printf("jagwinder singh");
-   printf("%d",x);
+   printf("\n%d",x);
    getch();
     return 0;
 }
 
 
 
-//6.WAP to print the name of the user in double quotes. Expected output format – “Hello , Amit Kumar”
+//6.WAP to print the name of the user in double quotes. Expected output format â€“ â€œHello , Amit Kumarâ€
 
 #include<stdio.h>
 #include<conio.h>
@@ -83,7 +83,7 @@ int main()
 
 
 
-//7. WAP to print “%d” on the screen.
+//7. WAP to print â€œ%dâ€ on the screen.
 
 #include<stdio.h>
 #include<conio.h>
@@ -94,7 +94,7 @@ int main()
     return 0;
 }
 
-//8. WAP to print “\n” on the screen.
+//8. WAP to print â€œ\nâ€ on the screen.
 
 #include<stdio.h>
 #include<conio.h>
@@ -105,7 +105,7 @@ int main()
     return 0;
 }
 
-//9. WAP to print “\\” on the screen.
+//9. WAP to print â€œ\\â€ on the screen.
 
 #include<stdio.h>
 #include<conio.h>
@@ -118,9 +118,9 @@ int main()
 
 
 //10. WAP to take date as an input in below given format and convert the date format and     display the result as given below.
-//User Input date format – “DD/MM/YYYY”  (27/11/2022)
-//Output format –
-//“Day – DD , Month – MM , Year – YYYY” (Day – 27 ,Month – 11 , Year – 2022)
+//User Input date format â€“ â€œDD/MM/YYYYâ€  (27/11/2022)
+//Output format â€“
+//â€œDay â€“ DD , Month â€“ MM , Year â€“ YYYYâ€ (Day â€“ 27 ,Month â€“ 11 , Year â€“ 2022)
 
 #include<stdio.h>
 #include<conio.h>
@@ -128,7 +128,7 @@ int main()
 {
   int day,month,year;
   printf("DD/MM/YY=");
-  scanf("%d%d%d",&day,&month,&year);
+  scanf("%d/%d/%d",&day,&month,&year);
   printf("Day - %d , Month - %d , year - %d ",day,month,year);
   getch();
   return 0;
@@ -137,10 +137,10 @@ int main()
 
 
 //11. WAP to take time as an input in below given format and convert the time format and display the result as given below.
-//User Input date format – “HH:MM”
-//Output format – “HH hour and MM Minute”
-//Example –
-//“11:25” converted to “11 Hour and 25 Minute”
+//User Input date format â€“ â€œHH:MMâ€
+//Output format â€“ â€œHH hour and MM Minuteâ€
+//Example â€“
+//â€œ11:25â€ converted to â€œ11 Hour and 25 Minuteâ€
 
 
 #include<stdio.h>
@@ -164,12 +164,12 @@ int main()
 int main()
 {
    int x=printf("ineuron");
-   printf("%d",x);
+   printf("\n%d",x);
     getch();
     return 0;
 }
 
-//ITS ANSWER IS "ineuron7"
+
 */
 
 
