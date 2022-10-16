@@ -15,8 +15,7 @@ int main()
 
 void Nnatural(int f)
 {
-    if(f==0)
-        return 1;
+    if(f==0);
     else
     {
         Nnatural(f-1);
@@ -39,8 +38,7 @@ int main()
 
 void Nreverse(int d)
 {
-    if(d==0)
-        return 1;
+    if(d==0);
     else
     {
         printf("\n %d",d);
@@ -64,8 +62,7 @@ int main()
 
 void Nodd(int k)
 {
-    if(k==0)
-        return 0;
+    if(k==0);
     else
     {
         Nodd(k-1);
@@ -87,8 +84,7 @@ int main()
 
 void Noddreverse(int d)
 {
-    if(d==0)
-        return 5;
+    if(d==0);
     else
     {
         printf("\n%d",d*2-1);
@@ -111,8 +107,7 @@ int main()
 
 void Neven(int s)
 {
-    if(s==0)
-        return 0;
+    if(s==0);
     else
     {
         Neven(s-1);
@@ -135,8 +130,7 @@ int main()
 
 void Nevenreverse(int k)
 {
-    if(k==0)
-        return 4;
+    if(k==0);
     else
     {
         printf("\n%d",k*2);
@@ -159,8 +153,7 @@ int main()
 
 void squares(int d)
 {
-    if(d==0)
-        return 1;
+    if(d==0);
     else
     {
         squares(d-1);
@@ -182,8 +175,7 @@ int main()
 
  void rnumber(int h)
 {
-       if(h==0)
-        return 0;
+       if(h==0);
        else
       {
         rnumber(h/2);
@@ -205,8 +197,7 @@ int main()
 
  void rnumber(int h)
 {
-       if(h==0)
-        return 0;
+       if(h==0);
        else
       {
         rnumber(h/8);
@@ -229,8 +220,7 @@ int main()
 
  void rnumber(int h)
 {
-       if(h==0)
-        return 0;
+       if(h==0);
        else
       {
         printf("% d",h%10);
