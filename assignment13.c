@@ -168,49 +168,36 @@ int main()
 }
 int HCF(int d,int s,int max)
 {
-	int k;
+
 	if(d%max==0 && s%max==0)
 	 return max;
 	else
-	{
-	   k=HCF(d,s,max-1);
-	   return k;
-
-	}
-
+       HCF(d,s,max-1);
 }
 
 //8. Write a recursive function to print first N terms of Fibonacci series.
 #include<stdio.h>
-int Nfibo(int);
+void fibo(int);
 int main()
 {
-	int d;
-	printf("Enter a Number=");
-	scanf("%d",&d);
-	Nfibo(d);
-	return 0;
+	fibo(10);
 }
-
-int Nfibo(int k,int a=0,int b=0,int c=0)
+void fibo(int a)
 {
-
-	if(k==0)
-	{
-    return 0;
-	}
+	static int b=-1,c=1;
+	int d;
+	if(a==0);
 	else
 	{
-    c=a+b;
-    printf("%d",c);
-    a=b;
-    b=c;
-    Nfibo(k-1,a,b);
-
-
+	d=b+c;
+	printf("\n%d",d);
+	b=c;
+	c=d;
+	fibo(a-1);
 	}
+	
 }
-*/
+
 //9. Write a program in C to count the digits of a given number using recursion.
 #include<stdio.h>
 int count(int);
@@ -226,18 +213,55 @@ int main()
 
 int count(int d)
 {
-    int v=0;
-    if(d==1)
-        return 0;
-    else
-    {
-        count(d/10);
-        v=d%10;
-        printf("%d",v);
-  return v;
 
-    }
+   int incre=0;
+   if(d>0)
+  {
+  	incre=1+count(d/10);
+  	return incre;
+  }
+   
 }
+
+//10. Write a program in C to calculate the power of any number using recursion.  
+#include<stdio.h>
+int power(int);
+int main()
+{
+	printf("%d",power(15));
+}
+ 
+int power(int a)
+{
+    int j;
+	if(a==0);
+	else
+	{
+	j=a*a*a+power(a%a);
+	return j;
+	}	
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
